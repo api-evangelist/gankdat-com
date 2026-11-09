@@ -1,4 +1,4 @@
-# gankdat-com
+# gankdat
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gankdat-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gankdat.com/
+gankdat provides UK & EU tenders, planning, company & compliance data as clean JSON via a REST + MCP API. Public sector data is aggregated, normalized and refreshed daily, offering endpoints for tenders, contract awards, planning and more, with a free tier and simple API‑key authentication.
+
+**Areas:** Data · Government · API · UK · EU
+
+## gankdat on APIs.io
+
+Everything profiled for gankdat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gankdat-com/](https://apis.io/providers/gankdat-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [gankdat Changes API](https://apis.io/apis/gankdat-com/gankdat-com-changes-api/) — What changed since a date (register datasets)
+- [gankdat Data API](https://apis.io/apis/gankdat-com/gankdat-com-data-api/) — Dataset query endpoints
+- [gankdat Platform API](https://apis.io/apis/gankdat-com/gankdat-com-platform-api/) — Health and discovery
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [gankdat Agentic Access](https://apis.io/agentic-access/gankdat-com/gankdat-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Gankdat Com Context](https://apis.io/jsonld/gankdat-com/gankdat-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [gankdat API Rules](https://apis.io/rules/gankdat-com/gankdat-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [gankdat Authentication](https://apis.io/security/gankdat-com/gankdat-com-authentication/)
+- [gankdat Domain Security](https://apis.io/security/gankdat-com/gankdat-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gankdat.com/)
+- [Documentation](https://gankdat.com/docs)
+- [API reference](https://gankdat.com/openapi.json)
+- [Terms of service](https://gankdat.com/terms)
+- [Privacy policy](https://gankdat.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 40.4** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 50.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 52.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gankdat-com/](https://apis.io/providers/gankdat-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for gankdat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gankdat-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
